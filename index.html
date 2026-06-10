@@ -332,6 +332,57 @@
     margin: 2rem 0;
   }
 
+
+
+  /* RUBRICA EMBED */
+  .rubrica-embed {
+    margin-top: 2rem;
+    border: 1px solid #e8d090;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .rubrica-embed-header {
+    background: var(--gold-light);
+    padding: 1.1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .rubrica-embed-header strong { color: var(--ink); font-size: 1rem; display: block; }
+  .rubrica-embed-header span { color: var(--ink-soft); font-size: 0.85rem; }
+
+  /* RUBRICA DOWNLOAD */
+  .rubrica-download {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background: var(--gold-light);
+    border: 1px solid #e8d090;
+    border-radius: 4px;
+    padding: 1.4rem 1.8rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  .rubrica-icon { font-size: 2rem; flex-shrink: 0; }
+  .rubrica-text { flex: 1; min-width: 160px; display: flex; flex-direction: column; gap: 2px; }
+  .rubrica-text strong { color: var(--ink); font-size: 1rem; }
+  .rubrica-text span { color: var(--ink-soft); font-size: 0.88rem; }
+  .rubrica-btn {
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.65rem 1.4rem;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+  .rubrica-btn:hover { background: #a33408; }
+
   footer {
     background: var(--ink);
     color: #5a5040;
@@ -501,7 +552,7 @@
       <div class="step-num">4</div>
       <div>
         <h3>Analizamos</h3>
-        <p>Completen la ficha de análisis en Google Forms sobre la pieza recibida.</p>
+        <p>Descarguen y completen la rúbrica de evaluación sobre la pieza recibida.</p>
       </div>
     </div>
     <div class="step">
@@ -554,8 +605,8 @@
       <span>Material sobre composición gráfica</span>
     </div>
     <div class="resource-card">
-      <div class="resource-icon">📋</div>
-      <span>Google Forms — ficha de análisis</span>
+      <div class="resource-icon">📄</div>
+      <span>Rúbrica de evaluación — ficha de análisis</span>
     </div>
     <div class="resource-card">
       <div class="resource-icon">📌</div>
@@ -582,7 +633,12 @@
     src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=900&auto=format&fit=crop&q=80"
     alt="Revisión y evaluación de piezas de diseño gráfico"
     loading="lazy">
-  <p>La evaluación contempla tanto las decisiones de diseño como la capacidad de análisis y el trabajo colaborativo:</p>
+  <p>La evaluación se desarrolla en dos momentos del recorrido y se registra en una única rúbrica que los grupos irán completando a lo largo de la actividad.</p>
+  <p><strong>Primera parte — Paso 4 (Analizamos):</strong> cuando reciben la pieza del otro grupo, comienzan a completar la rúbrica identificando aspectos de diseño como la tipografía, el color, la jerarquización visual, la composición y el público objetivo.</p>
+  <p><strong>Segunda parte — Paso 6 (Exponemos):</strong> durante la exposición y puesta en común, se completa la segunda parte de la rúbrica, que contempla la capacidad de cada equipo para fundamentar sus decisiones de diseño, comparar sus intenciones comunicacionales con las interpretaciones del otro grupo y reflexionar críticamente sobre su propia producción.</p>
+  <p>De esta manera, la evaluación no se centra únicamente en el producto final sino en todo el proceso: el análisis, la reflexión y la argumentación desarrollados a lo largo de la propuesta.</p>
+
+    <p>La evaluación contempla tanto las decisiones de diseño como la capacidad de análisis y el trabajo colaborativo:</p>
 
   <div class="eval-grid">
     <div class="eval-card">
